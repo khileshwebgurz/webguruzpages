@@ -3,7 +3,7 @@
 import { fetchPosts } from "../../../lib/fetchPosts";
 import Link from "next/link";
 import AllPost from "./02AllPosts";
-import "../../app/blogs/blogs.css";
+// import "../../app/blogs/blogs.css";
 import RecentPost from "./01RecentPost";
 
 

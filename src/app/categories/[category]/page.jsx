@@ -3,7 +3,7 @@ import Image from "next/image";
 import Link from "next/link";
 import { notFound } from "next/navigation";
 import { fetchPosts } from "../../../../lib/fetchPosts";
-import '../../blogs/blogs.css'
+// import '../../blogs/blogs.css'
 
 function normalizeString(str) {
   return str.toLowerCase().replace(/-/g, " ").replace(/\s+/g, " ").trim();

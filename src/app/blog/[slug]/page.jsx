@@ -1,7 +1,7 @@
 import Image from "next/image";
 import { fetchPosts } from "../../../../lib/fetchPosts";
 import { notFound } from "next/navigation";
-import "../../blogs/blogs.css";
+// import "../../blogs/blogs.css";
 export async function generateStaticParams() {
   const posts = await fetchPosts();
   return posts.map((post) => ({ slug: post.slug }));

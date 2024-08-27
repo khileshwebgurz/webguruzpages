@@ -3,7 +3,7 @@ import { fetchPosts } from "../../../lib/fetchPosts";
 import React from "react";
 import Image from "next/image";
 import Link from "next/link";
-import "../blogs/blogs.css";
+// import "../blogs/blogs.css";
 
 const SearchPage = async ({ searchTerms }) => {
   const searchTerm = searchTerms || "";
