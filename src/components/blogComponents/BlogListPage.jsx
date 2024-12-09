@@ -3,7 +3,7 @@
 import { fetchPosts } from "../../../lib/fetchPosts";
 import Link from "next/link";
 import AllPost from "./02AllPosts";
-import "../../app/blogs/blogs.css";
+// import "../../app/blogs/blogs.css";
 import RecentPost from "./01RecentPost";
 
 
@@ -11,6 +11,7 @@ const POSTS_PER_PAGE = 5;
 
 export default async function BlogListPage({ pageNumber = 1 }) {
   const posts = await fetchPosts();
+ 
 
   const totalPages = Math.ceil(posts.length / POSTS_PER_PAGE);
   const startIndex = (pageNumber - 1) * POSTS_PER_PAGE;

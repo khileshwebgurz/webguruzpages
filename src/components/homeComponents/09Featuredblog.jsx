@@ -7,6 +7,7 @@ const Featuredblog = async () => {
   if (!posts || posts.length === 0) {
     return <p>No posts available</p>;
   }
+ 
   return (
     <div>
       <section className="featured-blog py-5">

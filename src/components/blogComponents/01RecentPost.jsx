@@ -3,6 +3,7 @@ import Link from "next/link";
 import SearchBar from "./SearchBar";
 
 const RecentPost = ({ posts }) => {
+ 
   return (
     <>
       <SearchBar />
